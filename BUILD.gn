@@ -1,0 +1,11 @@
+declare_args() {
+  enable_teleporter = true
+  enable_doom_melon = false
+}
+
+executable("hello_world") {
+  sources = [
+    "hello_world.cc",
+  ]
+  print(configs)
+}
